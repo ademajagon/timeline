@@ -15,7 +15,6 @@ type TimelineProps = {
 const Timeline: React.FC<TimelineProps> = ({ steps }) => {
   return (
     <div className="relative flex flex-col items-start">
-      {/* Vertical line connecting all steps */}
       <div
         className="absolute left-4 top-0 h-full w-0.5 bg-slate-200"
         aria-hidden="true"
@@ -26,7 +25,6 @@ const Timeline: React.FC<TimelineProps> = ({ steps }) => {
           key={index}
           className="flex items-start w-full mb-8 last:mb-0 relative"
         >
-          {/* Step Icon with connection line */}
           <div
             className={`relative z-10 flex items-center justify-center w-8 h-8 rounded-full shadow-lg border-2 border-white 
                        ${step.highlight ? "bg-rose-500" : "bg-indigo-500"}`}
