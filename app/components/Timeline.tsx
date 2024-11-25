@@ -14,7 +14,7 @@ type TimelineProps = {
 
 const Timeline: React.FC<TimelineProps> = ({ steps }) => {
   return (
-    <div className="relative flex flex-col items-start">
+    <div className="relative flex flex-col items-center">
       <div
         className="absolute left-4 top-0 h-full w-0.5 bg-slate-200"
         aria-hidden="true"
