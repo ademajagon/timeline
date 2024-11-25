@@ -1,8 +1,7 @@
-import { FaCheckCircle, FaEnvelope, FaTruck } from "react-icons/fa";
+import { FaCheckCircle, FaEnvelope } from "react-icons/fa";
 import Timeline from "./components/Timeline";
-import { FaRegFilePdf, FaFilePdf } from "react-icons/fa6";
+import {  FaFilePdf } from "react-icons/fa6";
 import { IoDocuments } from "react-icons/io5";
-import { IoIosInformationCircle } from "react-icons/io";
 import { FaInfoCircle } from "react-icons/fa";
 
 const steps = [
