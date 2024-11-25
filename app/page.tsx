@@ -1,6 +1,6 @@
 import { FaCheckCircle, FaEnvelope } from "react-icons/fa";
 import Timeline from "./components/Timeline";
-import {  FaFilePdf } from "react-icons/fa6";
+import { FaFilePdf } from "react-icons/fa6";
 import { IoDocuments } from "react-icons/io5";
 import { FaInfoCircle } from "react-icons/fa";
 
@@ -40,9 +40,10 @@ const steps = [
 
 export default function Home() {
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold mb-8">Timeline Example</h1>
-      <Timeline steps={steps} />
+    <div className="p-8 bg-gray-100 min-h-screen flex justify-center">
+      <div className="max-w-2xl w-full flex flex-col items-center">
+        <Timeline steps={steps} />
+      </div>
     </div>
   );
 }
