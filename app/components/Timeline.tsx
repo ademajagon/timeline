@@ -27,7 +27,7 @@ const Timeline: React.FC<TimelineProps> = ({ steps }) => {
         >
           <div
             className={`relative z-10 flex items-center justify-center w-8 h-8 rounded-full shadow-lg border-2 border-white 
-                       ${step.highlight ? "bg-rose-500" : "bg-indigo-500"}`}
+                       ${step.highlight ? "bg-[#0e94ca]" : "bg-indigo-500"}`}
           >
             {step.icon}
           </div>
@@ -38,7 +38,7 @@ const Timeline: React.FC<TimelineProps> = ({ steps }) => {
             </div>
             <div
               className={`text-base font-medium ${
-                step.highlight ? "text-rose-600" : "text-slate-800"
+                step.highlight ? "text-[#0e94ca]" : "text-slate-800"
               }`}
             >
               {step.title}
